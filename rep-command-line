@@ -1,0 +1,7 @@
+step 1. search for all players with headset
+step 2. ask if headset upgraded
+if (headset upgrade = true) then (step 4.) else (step 3.)
+step 3. ask for dimension
+if (dimension = !minecraft:overworld) then (return wrong dimension error) else (step 4.)
+step 4. ask for group code
+step 5. add player to group with code equal to headset code
